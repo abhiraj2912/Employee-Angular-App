@@ -6,6 +6,7 @@
                 <thead>
                   <tr>
                     <th scope="col">Employee Name</th>
+                    <th scope="col">Designation</th>
                     <th scope="col">Salary</th>
                     <th scope="col">Phone Number</th>
                     <th scope="col">Email</th>
@@ -14,6 +15,7 @@
                 <tbody>
                   <tr *ngFor="let i of data">
                     <td>{{i.name}}</td>
+                    <td>{{i.designation}}</td>
                     <td>{{i.salary}}</td>
                     <td>{{i.phone}}</td>
                     <td>{{i.email}}</td>
